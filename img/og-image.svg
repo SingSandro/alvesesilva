@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040C13"/>
+      <stop offset="1" stop-color="#0A2031"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2F75FF" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#2F75FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/>
+    </pattern>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8E641E"/>
+      <stop offset=".22" stop-color="#F5D88A"/>
+      <stop offset=".5" stop-color="#C9973E"/>
+      <stop offset=".76" stop-color="#FFE5A1"/>
+      <stop offset="1" stop-color="#A87424"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1010" cy="310" r="340" fill="url(#glow)"/>
+  <circle cx="1120" cy="300" r="300" fill="none" stroke="#2F75FF" stroke-opacity=".2"/>
+  <circle cx="1120" cy="300" r="210" fill="none" stroke="#2F75FF" stroke-opacity=".16"/>
+
+  <g transform="translate(72 64)">
+    <g transform="scale(0.55)">
+      <path fill="url(#gold)" fill-rule="evenodd" d="M150 12 C143 12 137 17 133 26 L25 294 C21 305 14 313 5 319 H91 C81 312 76 304 80 293 L99 245 C111 260 126 271 143 279 C166 291 190 294 211 289 L213 289 L224 315 H295 C285 308 278 299 273 287 L167 27 C163 17 157 12 150 12 Z M151 58 L191 157 C178 148 164 143 149 143 C133 143 119 148 107 158 L151 58 Z M105 177 C114 160 130 151 149 151 C171 151 188 164 198 183 L230 263 C214 281 189 289 165 284 C138 279 116 263 101 239 L89 220 L105 177 Z"/>
+      <path d="M203 169 C187 151 166 143 144 146 C120 149 105 164 105 183 C105 202 121 213 151 228 C181 243 194 254 193 271 C192 290 173 302 148 302 C123 302 103 292 88 274" fill="none" stroke="url(#gold)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <line x1="180" y1="18" x2="180" y2="162" stroke="#C9973E" stroke-width="2" opacity=".68"/>
+    <text x="204" y="136" fill="url(#gold)" font-family="Newsreader, Georgia, 'Times New Roman', serif" font-size="72" font-weight="500" letter-spacing="1">Alves &amp; Silva</text>
+  </g>
+
+  <g transform="translate(72 292)">
+    <rect width="42" height="4" rx="2" fill="#2F75FF"/>
+    <text x="0" y="66" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="46" font-weight="700">
+      Contabilidade em dia.
+    </text>
+    <text x="0" y="122" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="46" font-weight="700">
+      Finanças sob controle.
+    </text>
+    <text x="0" y="180" fill="#9DC0FF" font-family="Georgia, serif" font-size="46" font-style="italic">
+      Decisões com direção.
+    </text>
+  </g>
+
+  <g transform="translate(72 560)">
+    <text fill="#81919E" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">
+      SÃO GONÇALO/RJ  ·  CRC/RJ 107397/O-1  ·  ATENDIMENTO DIRETO PELOS SÓCIOS
+    </text>
+  </g>
+</svg>
