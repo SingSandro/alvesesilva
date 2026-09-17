@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1090 250" role="img" aria-labelledby="title desc">
+  <title id="title">Alves &amp; Silva</title>
+  <desc id="desc">Logo horizontal azul com monograma AS e o nome Alves &amp; Silva.</desc>
+  <defs>
+    <linearGradient id="blueMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9DC0FF"/>
+      <stop offset=".5" stop-color="#2F75FF"/>
+      <stop offset="1" stop-color="#1D55C9"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(18 9) scale(.68)">
+    <path
+      fill="url(#blueMark)"
+      fill-rule="evenodd"
+      d="M150 12
+         C143 12 137 17 133 26
+         L25 294
+         C21 305 14 313 5 319
+         H91
+         C81 312 76 304 80 293
+         L99 245
+         C111 260 126 271 143 279
+         C166 291 190 294 211 289
+         L213 289
+         L224 315
+         H295
+         C285 308 278 299 273 287
+         L167 27
+         C163 17 157 12 150 12
+         Z
+
+         M151 58
+         L191 157
+         C178 148 164 143 149 143
+         C133 143 119 148 107 158
+         L151 58
+         Z
+
+         M105 177
+         C114 160 130 151 149 151
+         C171 151 188 164 198 183
+         L230 263
+         C214 281 189 289 165 284
+         C138 279 116 263 101 239
+         L89 220
+         L105 177
+         Z"/>
+    <path
+      d="M203 169
+         C187 151 166 143 144 146
+         C120 149 105 164 105 183
+         C105 202 121 213 151 228
+         C181 243 194 254 193 271
+         C192 290 173 302 148 302
+         C123 302 103 292 88 274"
+      fill="none"
+      stroke="url(#blueMark)"
+      stroke-width="24"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+  </g>
+
+  <line x1="244" y1="47" x2="244" y2="203" stroke="#2F75FF" stroke-width="1.5" opacity=".68"/>
+
+  <text
+    x="283"
+    y="170"
+    fill="#FFFFFF"
+    font-family="'Abril Fatface', Georgia, 'Times New Roman', serif"
+    font-size="128"
+    font-weight="400"
+    letter-spacing="1">Alves &amp; Silva</text>
+</svg>
